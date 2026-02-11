@@ -1,0 +1,55 @@
+
+#include <iostream>
+using namespace std;
+int main(){
+int dole=2;
+
+int bob=20;
+
+int accumulator = 0;
+
+while (true)
+ {
+ if(dole==0) break ;
+ accumulator += (( dole % 2 == 1) ? bob : 0);
+ dole /= 2;
+ bob *= 2;
+ }
+ cout << accumulator << "\n";
+ 
+}
+The program above finds the square of the number if both 
+dole and bob are same we can say that we are multiplying
+bob, dole times so say bob is 20 and dole is 2 it will be:
+20*2=40(I used the computer to understand the program)
+
+Question # 2
+
+# define O 1 // That ’s an oh , not a zero
+2 int main ()
+3 {
+4 return O;
+}
+in this program we are defining O as equal to 1 
+and then we are returning O so on the screen there will be
+nothing but the program will return 1 which is the value of
+O and the program exits with code 1(I didn't used a computer).
+
+Question # 3
+
+// N is a nonnegative integer
+2 double acc = 0;
+3 for(int i = 1; i <= N; ++i)
+4 {
+5 double term = (1.0/ i);
+6 acc += term * term ;
+7 for (int j = 1; j < i; ++j)
+8 {
+9 acc *= -1;
+10 }
+11 }
+12 cout << acc << "\n";
+In this program the first for loop adds 1/i² to acc
+until the condition i<=N becomes false and the second for loop
+checks for if the value of i is even or odd if its even it flips
+the sign if odd it does nothing and then the program prints acc(I didn't used a computer).
