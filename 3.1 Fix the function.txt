@@ -1,0 +1,25 @@
+1 # include < iostream >
+
+2
+
+3 int main () {
+
+	4 printNum (35) ;
+
+	5 return 0;
+
+	6
+}
+
+7
+
+8 void printNum (int number ) {
+	std :: cout << number ;
+}
+
+(Give two ways to fix this code.)
+
+
+The code can be fixed by including void printNum();
+before int main()
+or we can just place rhe printNum function above int main()
