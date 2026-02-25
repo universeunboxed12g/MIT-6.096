@@ -1,0 +1,22 @@
+1 void f( const int a = 5)
+2 {
+	3 std :: cout << a*2 << " \ n";
+	4 }
+5
+6 int a = 123;
+7 int main ()
+8 {
+	9 f (1) ;
+	10 f (a ) ;
+	11 int b = 3;
+	12 f (b ) ;
+	13 int a = 4;
+	14 f (a ) ;
+	15 f();
+	16 }
+// the program will output
+2
+246
+6
+8
+10
